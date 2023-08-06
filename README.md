@@ -1,14 +1,29 @@
-# React前端书签
+# vue-web-bookmark
 
-## 项目描述
+This template should help get you started developing with Vue 3 in Vite.
 
-我准备做一个前端书签的项目，里面存放一些前端常用的书签地址，方便前端开发者查阅使用。
+## Recommended IDE Setup
 
-## 技术栈
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-* react
-* react-redux
-* react-router-dom
-* vite
-* sass
-* antd
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
