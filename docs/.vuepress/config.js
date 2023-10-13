@@ -3,7 +3,7 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 export default defineUserConfig({
-  base: '/web-bookmark/',
+  base: '/',
   lang: 'zh-CN',
   title: '前端书签',
   description: '收集前端相关官网和工具的网址',
