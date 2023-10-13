@@ -28,6 +28,3 @@ coverage
 *.sw?
 
 *lock.yaml
-
-.temp
-.cache
