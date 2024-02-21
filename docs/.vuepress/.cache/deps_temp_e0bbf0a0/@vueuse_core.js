@@ -35,7 +35,7 @@ import {
   watchEffect
 } from "./chunk-67UUJLDS.js";
 
-// node_modules/.pnpm/vue-demi@0.14.7_vue@3.3.4/node_modules/vue-demi/lib/index.mjs
+// node_modules/_vue-demi@0.14.7@vue-demi/lib/index.mjs
 var isVue2 = false;
 var isVue3 = true;
 function set(target, key, val) {
@@ -55,7 +55,7 @@ function del(target, key) {
   delete target[key];
 }
 
-// node_modules/.pnpm/@vueuse+shared@10.7.2_vue@3.3.4/node_modules/@vueuse/shared/index.mjs
+// node_modules/_@vueuse_shared@10.7.2@@vueuse/shared/index.mjs
 function computedEager(fn, options) {
   var _a;
   const result = shallowRef();
@@ -1536,7 +1536,7 @@ function whenever(source, cb, options) {
   );
 }
 
-// node_modules/.pnpm/@vueuse+core@10.7.2_vue@3.3.4/node_modules/@vueuse/core/index.mjs
+// node_modules/_@vueuse_core@10.7.2@@vueuse/core/index.mjs
 function computedAsync(evaluationCallback, initialState, optionsOrRef) {
   let options;
   if (isRef(optionsOrRef)) {

@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-BAIHGESP.js";
+} from "./chunk-HZ7YXQ5B.js";
 import {
   computed,
   defineComponent,
@@ -21,7 +21,7 @@ import {
   watchEffect
 } from "./chunk-67UUJLDS.js";
 
-// node_modules/.pnpm/vue-router@4.2.5_vue@3.3.4/node_modules/vue-router/dist/vue-router.mjs
+// node_modules/_vue-router@4.2.5@vue-router/dist/vue-router.mjs
 var isBrowser = typeof window !== "undefined";
 function isESModule(obj) {
   return obj.__esModule || obj[Symbol.toStringTag] === "Module";
@@ -2656,7 +2656,7 @@ export {
 };
 /*! Bundled license information:
 
-vue-router/dist/vue-router.mjs:
+_vue-router@4.2.5@vue-router/dist/vue-router.mjs:
   (*!
     * vue-router v4.2.5
     * (c) 2023 Eduardo San Martin Morote

@@ -5,7 +5,7 @@ import clientConfig3 from 'D:/Project/myProject/web-bookmark/node_modules/.pnpm/
 import clientConfig4 from 'D:/Project/myProject/web-bookmark/node_modules/.pnpm/@vuepress+plugin-theme-data@2.0.0-beta.67/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig5 from 'D:/Project/myProject/web-bookmark/node_modules/.pnpm/@vuepress+theme-default@2.0.0-beta.67/node_modules/@vuepress/theme-default/lib/client/config.js'
 import clientConfig6 from 'D:/Project/myProject/web-bookmark/node_modules/.pnpm/@vuepress+plugin-back-to-top@2.0.0-beta.67/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
-import clientConfig7 from 'D:/Project/myProject/web-bookmark/node_modules/.pnpm/@vuepress+plugin-docsearch@2.0.0-beta.67_@algolia+client-search@4.20.0_search-insights@2.13.0/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
+import clientConfig7 from 'D:/Project/myProject/web-bookmark/node_modules/.pnpm/@vuepress+plugin-docsearch@2.0.0-beta.67_@algolia+client-search@4.22.1_react-dom@15.7.0_react_rxzrn3ws6p5xv4fdhlfpxsfct4/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
