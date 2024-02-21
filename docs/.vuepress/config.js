@@ -14,6 +14,12 @@ export default defineUserConfig({
     }),
   ],
   theme: defaultTheme({
+    algolia: {
+      apiKey: 'c4a7692e3003d548dca240c26dbfcbb9',
+      indexName: 'anyaoqi',
+      // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
+      appId: 'I8USI6AJWW'
+    },
     navbar: [
       {  text: '前端文档', link: '/Document/' },
       {  text: '前端工具', link: '/Tools/' },
