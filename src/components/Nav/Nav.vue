@@ -11,19 +11,19 @@
         <span class="nav-item-icon w-3 mr-3">
           <i class="fa fa-book" />
         </span>
-        <span class="nav-item-text">前端文档</span>
+        <span class="nav-item-text">前端框架</span>
       </li>
       <li class="nav-item h-8 items-center flex px-5 hover:bg-sky-500/75 cursor-pointer select-none">
         <span class="nav-item-icon w-3 mr-3">
           <i class="fa fa-folder-tree" />
         </span>
-        <span class="nav-item-text">前端工具</span>
+        <span class="nav-item-text">移动端</span>
       </li>
       <li class="nav-item h-8 items-center flex px-5 hover:bg-sky-500/75 cursor-pointer select-none">
         <span class="nav-item-icon w-3 mr-3">
           <i class="fa fa-church" />
         </span>
-        <span class="nav-item-text">前端社区</span>
+        <span class="nav-item-text">桌面端</span>
       </li>
     </ul>
   </nav>
