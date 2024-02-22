@@ -1,1 +1,14 @@
 export const data = JSON.parse("{\"key\":\"v-5f44720d\",\"path\":\"/Tools/\",\"title\":\"前端工具\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"开发工具\",\"slug\":\"开发工具\",\"link\":\"#开发工具\",\"children\":[]}],\"git\":{\"updatedTime\":1708322980000,\"contributors\":[{\"name\":\"anyaoqi\",\"email\":\"anyaoqi@126.com\",\"commits\":1},{\"name\":\"杨奇\",\"email\":\"yangq1@hsit.com.cn\",\"commits\":1}]},\"filePathRelative\":\"Tools/index.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

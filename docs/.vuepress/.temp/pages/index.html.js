@@ -1,1 +1,14 @@
 export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"heroText\":\"前端书签\",\"tagline\":\"前端常用文档网站和工具\",\"heroImage\":\"/images/hero.jpg\",\"heroHeight\":800},\"headers\":[],\"git\":{\"updatedTime\":1708322980000,\"contributors\":[{\"name\":\"anyaoqi\",\"email\":\"anyaoqi@126.com\",\"commits\":1},{\"name\":\"杨奇\",\"email\":\"yangq1@hsit.com.cn\",\"commits\":1}]},\"filePathRelative\":\"index.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
