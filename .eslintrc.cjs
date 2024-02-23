@@ -34,5 +34,6 @@ module.exports = {
     'no-const-assign': 'error', // 禁止对 const 声明的变量重新赋值
     'vue/valid-template-root': 'off', // 检查template中是否有根节点
     'quote-props': 'off',
+    'no-unused-vars': 'off',
   },
 }
