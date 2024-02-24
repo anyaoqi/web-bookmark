@@ -37,7 +37,7 @@ export default defineConfig({
     host: '127.0.0.1',
     proxy: {
       '/api': {
-        target: 'http://yx.nx.zgs.yun/mcs/api', // 湖南生产
+        target: '', // 跨域Url地址
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },

@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 // 滚动条样式优化
 @media only screen and (min-device-width: 768px) {
   ::-webkit-scrollbar-thumb {

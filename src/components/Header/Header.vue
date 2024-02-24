@@ -1,28 +1,35 @@
 <script setup>
-import { ref, reactive } from 'vue'
+import { computed } from 'vue'
+import { useStore } from '@/store'
+
+const store = useStore()
 
 // 是否暗色模式
-const isDark = ref(true)
+const isDark = computed(() => store.darkMode)
 // 切换模式
 const toggleMode = () => {
-  const htmlDom = document.getElementsByTagName('html')[0]
-  htmlDom.classList.toggle('dark')
-  isDark.value = !isDark.value
+  store.darkThemeChange()
 }
 
 // 主菜单
-const menu = reactive({
-  list: [
-    { key: 'document', name: '前端文档' },
-    { key: 'tool', name: '前端工具' },
-    { key: 'community', name: '前端社区' },
-  ],
-})
+const menuList =  computed(() => store.menuList)
+// 获取数据
+const getMenuData = () => {
+  // 获取菜单路由
+  store.getMenuData()
+}
+
+getMenuData()
+
+// 获取数据
+const getPageData = (menuKey) => {
+  store.getPageData(menuKey)
+}
 </script>
 
 <template>
   <header
-    class="header fixed flex justify-between items-center h-14 backdrop-blur-md border-b border-gray-200 dark:border-gray-600 shadow-lg"
+    class="header fixed flex justify-between items-center h-14 backdrop-blur-md border-b border-gray-200 dark:border-gray-600 shadow-lg z-10"
   >
     <div class="header-left">
       <div class="search-wrapper"></div>
@@ -30,11 +37,14 @@ const menu = reactive({
     <div class="header-center">
       <ul class="menu-list flex text-lg">
         <li
-          v-for="menu in menu.list"
+          v-for="menu in menuList"
           :key="menu.key"
           class="menu-item mr-4 pr-4 border-r-2 last:pr-1 last:border-r-0 cursor-pointer hover:text-sky-400"
+          @click="getPageData(menu.key)"
         >
-          <span>{{ menu.name }}</span>
+          <router-link :to="`/${menu.key}`">
+            <span>{{ menu.name }}</span>
+          </router-link>
         </li>
       </ul>
     </div>

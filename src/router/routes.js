@@ -1,6 +1,6 @@
 const routes = [
   {
-    path: '/',
+    path: '/:key',
     name: 'home',
     component: () => import('../views/home/home.vue'),
   },
