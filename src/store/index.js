@@ -5,12 +5,27 @@ const pinia = createPinia()
 
 export const useStore = defineStore('store',{
   state: () => ({
+    // 是否暗色主题
     darkTheme: true,
+    // 顶部菜单列表
     menuList: [],
-    pageData: []
+    // 当前菜单
+    currMenu: '',
+    // 页面数据
+    pageData: [],
+    // 当前页面导航
+    currNav: '',
   }),
   getters: {},
   actions: {
+    // 设置当前导航
+    setCurrNav(navName) {
+      this.currNav = navName
+    },
+    // 设置当前菜单
+    setCurrMenu(menuKey) {
+      this.currMenu = menuKey
+    },
     // 修改主题模式
     darkThemeChange() {
       const htmlDom = document.getElementsByTagName('html')[0]
@@ -19,7 +34,7 @@ export const useStore = defineStore('store',{
     },
     // 获取菜单路由
     getMenuData() {
-      getMenus().then(data => {
+      return getMenus().then(data => {
         if (data && data.length) {
           this.menuList = data
         } else {
@@ -33,6 +48,7 @@ export const useStore = defineStore('store',{
       getData(menuKey).then(pageData => {
         if (pageData && pageData.length) {
           this.pageData = pageData
+          this.currNav = pageData[0].name
         } else {
           this.pageData = []
         }

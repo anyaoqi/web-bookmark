@@ -1,11 +1,17 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useStore } from '@/store'
 
 const store = useStore()
 
+const currNav = computed(() => store.currNav)
 // 导航列表
 const navList = computed(() => store.pageData)
+
+// 点击左侧导航
+const navClick = ({name}) => {
+  store.setCurrNav(name)
+}
 </script>
 
 <template>
@@ -20,10 +26,12 @@ const navList = computed(() => store.pageData)
         v-for="(nav, index) in navList"
         :key="index"
         class="nav-item h-10 items-center flex px-5  hover:text-sky-500 dark:hover:bg-sky-500/75 dark:hover:text-slate-100 cursor-pointer select-none"
+        :class="{'text-sky-500 dark:bg-sky-500/75 dark:text-slate-100': currNav==nav.name}"
+        @click="navClick(nav)"
         >
         <a :href="`#${nav.name}`">
-          <span class="nav-item-icon w-4 mr-3">
-            <i :class="nav.icon" />
+          <span class="nav-item-icon w-4 mr-2">
+            <i :class="[nav.icon || 'fa fa-location-pin']" />
           </span>
           <span class="nav-item-text">{{ nav.name }}</span>
         </a>

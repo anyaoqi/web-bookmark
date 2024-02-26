@@ -1,13 +1,35 @@
 [
   {
+    "name": "前端基础",
+    "data": [
+      {
+        "name": "阮一峰ES6入门教程",
+        "desc": "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
+        "href": "https://es6.ruanyifeng.com/"
+      }
+    ]
+  },
+  {
     "name": "前端框架",
-    "icon": "fa fa-book",
     "data": [
       {
         "name": "Vue",
         "logo": "vue.png",
         "desc": "渐进式JavaScript框架",
         "href": "https://cn.vuejs.org/"
+      },
+      {
+        "name": "React",
+        "logo": "react.png",
+        "desc": "用于构建 Web 和原生交互界面的库",
+        "href": "https://react.dev/"
+      },
+      {
+        "name": "Svelte",
+        "logo": "svelte.png",
+        "desc": "用于构建快速 Web 应用的工具",
+        "href": "https://svelte.dev/",
+        "href_cn": "https://www.svelte.cn/"
       }
     ]
   }

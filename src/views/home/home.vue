@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { useRoute, onBeforeRouteUpdate } from 'vue-router'
+import { useRoute } from 'vue-router'
 import DataItem from '@/components/DataItem/DataItem.vue'
 import { useStore } from '@/store'
 
@@ -22,6 +22,7 @@ getPageData()
 </script>
 
 <template>
+  <!-- 分类 -->
   <div class="category-wrapper" v-for="(category, index) in pageData" :key="index" :id="category.name">
     <div class="category-head flex">
       <span class="category-title-icon mr-2">
@@ -29,6 +30,7 @@ getPageData()
       </span>
       <h2 class="category-title-text text-lg" >{{ category.name }}</h2>
     </div>
+    <!-- 列表 -->
     <ul class="cagetory-items flex flex-wrap mt-2">
       <li class="list-item w-1/6 h-22 pl-4 mb-3" v-for="(item, i) in category.data" :key="i">
         <DataItem  :data="item"/>
