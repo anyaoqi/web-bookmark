@@ -17,19 +17,19 @@ const navClick = ({name}) => {
 <template>
   <nav class="nav-container w-48 h-screen border-r border-gray-300 dark:bg-gray-900">
     <!-- Logo -->
-    <div class="logo-wrapper h-14 py-2 flex justify-center border-b  border-gray-300  dark:border-gray-500">
-      <img class="h-10" src="@/assets/images/logo.png"/>
+    <div class="logo-wrapper h-14 flex justify-center border-b  border-gray-300  dark:border-gray-500">
+      <img class="w-[190px] h-[55px]" src="@/assets/images/logo.png"/>
     </div>
     <!-- 左侧导航 -->
     <ul class="nav-wrapper overflow-auto  text-base">
       <li
         v-for="(nav, index) in navList"
         :key="index"
-        class="nav-item h-10 items-center flex px-5  hover:text-sky-500 dark:hover:bg-sky-500/75 dark:hover:text-slate-100 cursor-pointer select-none"
+        class="nav-item h-10  hover:text-sky-500 dark:hover:bg-sky-500/75 dark:hover:text-slate-100 cursor-pointer select-none"
         :class="{'text-sky-500 dark:bg-sky-500/75 dark:text-slate-100': currNav==nav.name}"
         @click="navClick(nav)"
         >
-        <a :href="`#${nav.name}`">
+        <a :href="`#${nav.name}`" class="w-full h-full px-5 items-center flex ">
           <span class="nav-item-icon w-4 mr-2">
             <i :class="[nav.icon || 'fa fa-location-pin']" />
           </span>

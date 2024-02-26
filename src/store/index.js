@@ -1,4 +1,5 @@
 import { createPinia, defineStore } from 'pinia'
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 import { getMenus, getPageData as getData } from '@/apis'
 
 const pinia = createPinia()
@@ -27,10 +28,14 @@ export const useStore = defineStore('store',{
       this.currMenu = menuKey
     },
     // 修改主题模式
-    darkThemeChange() {
+    darkThemeChange(isDark) {
       const htmlDom = document.getElementsByTagName('html')[0]
-      htmlDom.classList.toggle('dark')
-      this.darkTheme = !this.darkTheme
+      if (isDark) {
+        htmlDom.classList.add('dark')
+      } else {
+        htmlDom.classList.remove('dark')
+      }
+      this.darkTheme = isDark
     },
     // 获取菜单路由
     getMenuData() {
@@ -54,7 +59,9 @@ export const useStore = defineStore('store',{
         }
       })
     }
-  }
+  },
+  persist: true,
 })
 
+pinia.use(piniaPluginPersistedstate)
 export default pinia

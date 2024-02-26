@@ -10,8 +10,10 @@ const router = useRouter()
 const isDark = computed(() => store.darkTheme)
 // 切换模式
 const toggleMode = () => {
-  store.darkThemeChange()
+  store.darkThemeChange(!isDark.value)
 }
+// 设置主题模式
+store.darkThemeChange(isDark.value)
 
 // 主菜单
 const menuList =  computed(() => store.menuList)
