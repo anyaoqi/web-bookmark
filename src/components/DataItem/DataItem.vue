@@ -22,17 +22,17 @@ const itemData = props.data
           target="_blank"
           >
           <span class="flex" v-if="itemData.href && itemData.href_cn">
-            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.href">
+            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.href" target="_blank">
               <i class="fa fa-external-link text-xs" />
               访问英文地址
             </a>
             |
-            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.href_cn">
+            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.href_cn" target="_blank">
               <i class="fa fa-external-link text-xs" />
               访问中文地址
             </a>
           </span>
-          <a v-else class="block hover:text-sky-500 cursor-pointer" :href="itemData.href">
+          <a v-else class="block hover:text-sky-500 cursor-pointer" :href="itemData.href" target="_blank">
             <i class="fa fa-external-link text-xs" />
             访问地址
           </a>

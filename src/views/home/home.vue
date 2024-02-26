@@ -14,7 +14,6 @@ const pageData = computed(() => store.pageData)
 const getPageData = () => {
   // 路由参数：菜单Key
   const menuKey = route.params.key
-  console.log('menuKey',menuKey)
   store.getPageData(menuKey)
 }
 

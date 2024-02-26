@@ -23,7 +23,7 @@ const getMenuData = async () => {
   if (store.menuList && store.menuList.length) {
     const currMenuKey = store.menuList[0].key
     store.setCurrMenu(currMenuKey)
-    router.replace('./'+currMenuKey)
+    router.replace('/' + currMenuKey)
   }
 }
 
