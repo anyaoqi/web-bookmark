@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // 创建请求实例
 const instance = axios.create({
-  baseURL: '/', // 设置统一的请求前缀
+  baseURL: './', // 设置统一的请求前缀
   timeout: 10000, // 设置统一的超时时长
 })
 
