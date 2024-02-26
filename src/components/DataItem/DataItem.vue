@@ -7,7 +7,7 @@ const itemData = props.data
     <div class="list-item-content relative w-full overflow-hidden rounded h-full border border-gray-600 hover:bg-gray-600 hover:text-slate-100  dark:bg-gray-600 dark:hover:bg-cyan-800" :title="itemData.desc">
       <div class="item-top flex items-center py-2 px-2">
         <!-- logo -->
-        <img class="item-logo w-[42px] h-[42px]" v-if="itemData.logo" :src="`/images/${itemData.logo}`"/>
+        <img class="item-logo w-[42px] h-[42px]" v-if="itemData.logo" :src="`./images/${itemData.logo}`"/>
         <!-- 名称和描述 -->
         <div class="ml-2">
           <h3 class="item-title text-base font-bold pointer-events-none">{{ itemData.name }}</h3>
