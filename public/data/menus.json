@@ -1,0 +1,17 @@
+[
+  {
+    "key": "data-document",
+    "name": "前端文档",
+    "icon": "fa fa-book"
+  },
+  {
+    "key": "data-tool",
+    "name": "前端工具",
+    "icon": "fa fa-screwdriver-wrench"
+  },
+  {
+    "key": "data-community",
+    "name": "前端社区",
+    "icon": "fa fa-users"
+  }
+]
