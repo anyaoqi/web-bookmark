@@ -83,6 +83,12 @@
         "name": "Vue DevTools",
         "desc": "Vue开发调试工具",
         "href": "https://devtools.vuejs.org/"
+      },
+      {
+        "name": "Nuxt",
+        "desc": "Vue服务端渲染应用框架",
+        "href": "https://nuxt.com/",
+        "href_cn": "https://nuxt.com.cn/"
       }
     ]
   },
@@ -93,6 +99,23 @@
         "name": "React-Router",
         "desc": "React官方路由系统",
         "href": "https://reactrouter.com/"
+      },
+      {
+        "name": "Redux",
+        "desc": "JS 应用的状态容器，提供可预测的状态管理",
+        "href": "https://redux.js.org/",
+        "href_cn": "https://cn.redux.js.org/"
+      },
+      {
+        "name": "Redux-Toolkit",
+        "desc": "JS 应用的状态容器，提供可预测的状态管理",
+        "href": "https://redux-toolkit.js.org/",
+        "href_cn": "https://cn.redux-toolkit.js.org/"
+      },
+      {
+        "name": "Next",
+        "desc": "React服务端渲染应用框架",
+        "href": "https://nextjs.org/"
       }
     ]
   },
@@ -109,11 +132,22 @@
         "desc": "静态模块打包工具",
         "href": "https://webpack.js.org/",
         "href_cn": "https://webpack.docschina.org/"
+      },
+      {
+        "name": "Parcel",
+        "desc": "零配置的构建工具",
+        "href": "https://parceljs.org/",
+        "href_cn": "https://v2.parceljs.cn/"
+      },
+      {
+        "name": "Rollup",
+        "desc": "JavaScript打包器",
+        "href": "https://cn.rollupjs.org/"
       }
     ]
   },
   {
-    "name": "跨平台",
+    "name": "跨平台框架",
     "data": [
       {
         "name": "Uniapp",
@@ -124,6 +158,18 @@
         "name": "Electron",
         "desc": "构建桌面应用程序的框架",
         "href": "https://www.electronjs.org/zh/docs/latest/"
+      },
+      {
+        "name": "Flutter",
+        "desc": "Google开源的应用开发框架",
+        "href": "https://flutter.dev/",
+        "href_cn": "https://flutter.cn/"
+      },
+      {
+        "name": "Weex",
+        "desc": "开发高性能原生应用的框架",
+        "href": "https://weexapp.com/",
+        "href_cn": "https://weexapp.com/zh/"
       }
     ]
   }
