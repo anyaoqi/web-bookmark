@@ -43,7 +43,8 @@
         "name": "React",
         "logo": "react.png",
         "desc": "构建Web和原生交互界面的库",
-        "href": "https://react.dev/"
+        "href": "https://react.dev/",
+        "href_cn": "https://react.docschina.org/"
       },
       {
         "name": "Svelte",
@@ -62,14 +63,68 @@
   },
   {
     "name": "Vue生态",
-    "data": []
+    "data": [
+      {
+        "name": "Vue-Router",
+        "desc": "Vue.js 的官方路由",
+        "href": "https://router.vuejs.org/zh/"
+      },
+      {
+        "name": "Pinia",
+        "desc": "Vue.js 状态管理库",
+        "href": "https://pinia.vuejs.org/zh/"
+      },
+      {
+        "name": "Vuex",
+        "desc": "Vue.js 状态管理库",
+        "href": "https://vuex.vuejs.org/zh/"
+      },
+      {
+        "name": "Vue DevTools",
+        "desc": "Vue开发调试工具",
+        "href": "https://devtools.vuejs.org/"
+      }
+    ]
   },
   {
     "name": "React生态",
-    "data": []
+    "data": [
+      {
+        "name": "React-Router",
+        "desc": "React官方路由系统",
+        "href": "https://reactrouter.com/"
+      }
+    ]
+  },
+  {
+    "name": "打包工具",
+    "data": [
+      {
+        "name": "Vite",
+        "desc": "新型前端构建工具",
+        "href": "https://cn.vitejs.dev/"
+      },
+      {
+        "name": "Webpack",
+        "desc": "静态模块打包工具",
+        "href": "https://webpack.js.org/",
+        "href_cn": "https://webpack.docschina.org/"
+      }
+    ]
   },
   {
     "name": "跨平台",
-    "data": []
+    "data": [
+      {
+        "name": "Uniapp",
+        "desc": "开发一次，多端覆盖",
+        "href": "https://uniapp.dcloud.net.cn/"
+      },
+      {
+        "name": "Electron",
+        "desc": "构建桌面应用程序的框架",
+        "href": "https://www.electronjs.org/zh/docs/latest/"
+      }
+    ]
   }
 ]

@@ -11,7 +11,7 @@ const itemData = props.data
         <!-- 名称和描述 -->
         <div class="ml-2">
           <h3 class="item-title text-base font-bold pointer-events-none">{{ itemData.name }}</h3>
-          <p class="pr-2 w-36  text-slate-400 text-xs truncate">{{ itemData.desc }}</p>
+          <p class="pr-2 text-slate-400 text-xs truncate" :class="[itemData.logo ? 'w-36': 'w-48']">{{ itemData.desc }}</p>
         </div>
       </div>
       <!-- URL地址 -->
