@@ -3,9 +3,30 @@
     "name": "前端基础",
     "data": [
       {
+        "name": "MDN Web Docs",
+        "desc": "Web 开发者指南",
+        "href": "https://developer.mozilla.org/"
+      },
+      {
         "name": "阮一峰ES6入门教程",
         "desc": "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
         "href": "https://es6.ruanyifeng.com/"
+      },
+      {
+        "name": "菜鸟教程",
+        "desc": "学的不仅是技术，更是梦想！",
+        "href": "https://www.runoob.com/"
+      },
+      {
+        "name": "Node",
+        "desc": "跨平台的 JavaScript 运行时环境",
+        "href": "https://nodejs.org/",
+        "href_cn": "https://www.nodejs.com.cn/"
+      },
+      {
+        "name": "TypeScript",
+        "desc": "具有类型语法的 JavaScript",
+        "href": "https://www.typescriptlang.org/"
       }
     ]
   },
@@ -21,16 +42,34 @@
       {
         "name": "React",
         "logo": "react.png",
-        "desc": "用于构建 Web 和原生交互界面的库",
+        "desc": "构建Web和原生交互界面的库",
         "href": "https://react.dev/"
       },
       {
         "name": "Svelte",
         "logo": "svelte.png",
-        "desc": "用于构建快速 Web 应用的工具",
+        "desc": "快速构建Web应用的工具",
         "href": "https://svelte.dev/",
         "href_cn": "https://www.svelte.cn/"
+      },
+      {
+        "name": "Angular",
+        "desc": "构建现代应用程序的Web开发框架！",
+        "href": "https://angular.dev/",
+        "href_cn": "https://angular.cn/"
       }
     ]
+  },
+  {
+    "name": "Vue生态",
+    "data": []
+  },
+  {
+    "name": "React生态",
+    "data": []
+  },
+  {
+    "name": "跨平台",
+    "data": []
   }
 ]
