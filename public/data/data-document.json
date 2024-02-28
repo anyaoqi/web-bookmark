@@ -47,6 +47,12 @@
         "href_cn": "https://react.docschina.org/"
       },
       {
+        "name": "Angular",
+        "desc": "构建现代应用程序的Web开发框架！",
+        "href": "https://angular.dev/",
+        "href_cn": "https://angular.cn/"
+      },
+      {
         "name": "Svelte",
         "logo": "svelte.png",
         "desc": "快速构建Web应用的工具",
@@ -54,10 +60,14 @@
         "href_cn": "https://www.svelte.cn/"
       },
       {
-        "name": "Angular",
-        "desc": "构建现代应用程序的Web开发框架！",
-        "href": "https://angular.dev/",
-        "href_cn": "https://angular.cn/"
+        "name": "Solid",
+        "desc": "一个用于构建用户界面，简单高效、性能卓越的JavaScript库",
+        "href": "https://www.solidjs.com/"
+      },
+      {
+        "name": "Preact",
+        "desc": "React轻量、快速替代方案",
+        "href": "https://preactjs.com/"
       }
     ]
   },
