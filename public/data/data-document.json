@@ -13,11 +13,6 @@
         "href": "https://es6.ruanyifeng.com/"
       },
       {
-        "name": "菜鸟教程",
-        "desc": "学的不仅是技术，更是梦想！",
-        "href": "https://www.runoob.com/"
-      },
-      {
         "name": "Node",
         "desc": "跨平台的 JavaScript 运行时环境",
         "href": "https://nodejs.org/",
@@ -27,6 +22,28 @@
         "name": "TypeScript",
         "desc": "具有类型语法的 JavaScript",
         "href": "https://www.typescriptlang.org/"
+      },
+      {
+        "name": "菜鸟教程",
+        "desc": "学的不仅是技术，更是梦想！",
+        "href": "https://www.runoob.com/"
+      },
+      {
+        "name": "w3school",
+        "desc": "领先的 Web 技术教程 - 全部免费",
+        "href": "https://www.w3school.com.cn/"
+      },
+      {
+        "name": "jQuery",
+        "desc": "高效、精简并且功能丰富的 JavaScript 工具库",
+        "href": "https://jquery.com/",
+        "href_cn": "https://www.jquery123.com/"
+      },
+      {
+        "name": "Bootstrap",
+        "desc": "简洁、直观、强悍的前端开发框架",
+        "href": "https://getbootstrap.com/",
+        "href_cn": "https://www.bootcss.com/"
       }
     ]
   },
@@ -184,7 +201,7 @@
     ]
   },
   {
-    "name":"CSS相关",
+    "name": "CSS相关",
     "data": [
       {
         "name": "Tailwind Css",
@@ -223,7 +240,7 @@
     ]
   },
   {
-    "name":"UI框架",
+    "name": "UI框架",
     "data": [
       {
         "name": "Element Plus",
@@ -249,6 +266,36 @@
         "name": "Arco design",
         "desc": "基于Byte Design升级而来，能力全面的企业级产品设计系统",
         "href": "https://arco.design/"
+      }
+    ]
+  },
+  {
+    "name": "Node框架",
+    "data": [
+      {
+        "name": "Express",
+        "desc": "简洁而灵活的 Node.js Web 框架",
+        "href": "https://expressjs.com/"
+      },
+      {
+        "name": "Koa",
+        "desc": "下一代 Web 框架，基于 ES6 语法",
+        "href": "https://koajs.com/"
+      },
+      {
+        "name": "Egg",
+        "desc": "企业级 Node.js 框架，基于 Koa",
+        "href": "https://eggjs.org/"
+      },
+      {
+        "name": "MidwayJS",
+        "desc": "面向未来的前端和后端一体化应用框架",
+        "href": "https://midwayjs.org/"
+      },
+      {
+        "name": "NestJS",
+        "desc": "现代的、可扩展的 Node.js Web 框架",
+        "href": "https://nestjs.com/"
       }
     ]
   }
