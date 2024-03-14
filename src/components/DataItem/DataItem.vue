@@ -16,23 +16,23 @@ const itemData = props.data
       </div>
       <!-- URL地址 -->
       <div class="item-bottom py-2 flex text-xs items-center border-t border-gray-500 dark:border-gray-50 overflow-hidden">
-        <p class="item-desc text-center  truncate">{{ itemData.href }}</p>
+        <p class="item-desc text-center  truncate">{{ itemData.url }}</p>
         <div
           class="item-link absolute left-0 text-center py-1"
           target="_blank"
           >
-          <span class="flex" v-if="itemData.href && itemData.href_cn">
-            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.href" target="_blank">
+          <span class="flex" v-if="itemData.url && itemData.url_cn">
+            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.url" target="_blank">
               <i class="fa fa-external-link text-xs" />
               访问英文地址
             </a>
             |
-            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.href_cn" target="_blank">
+            <a  class="flex-1 hover:text-sky-500 cursor-pointer" :href="itemData.url_cn" target="_blank">
               <i class="fa fa-external-link text-xs" />
               访问中文地址
             </a>
           </span>
-          <a v-else class="block hover:text-sky-500 cursor-pointer" :href="itemData.href" target="_blank">
+          <a v-else class="block hover:text-sky-500 cursor-pointer" :href="itemData.url" target="_blank">
             <i class="fa fa-external-link text-xs" />
             访问地址
           </a>

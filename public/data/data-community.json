@@ -1,7 +1,95 @@
 [
   {
-    "name": "前端社区",
+    "name": "国内社区",
     "icon": "fa fa-users",
-    "data": []
+    "data": [
+      {
+        "name": "稀土掘金",
+        "desc": "中文开发者的技术内容分享与交流平台",
+        "url": "https://juejin.cn/"
+      },
+      {
+        "name": "CSDN",
+        "desc": "中文IT技术交流平台",
+        "url": "https://www.csdn.net/"
+      },
+      {
+        "name": "SegmentFault 思否",
+        "desc": "中国专业的开发者技术社区",
+        "url": "https://segmentfault.com/"
+      },
+      {
+        "name": "博客园",
+        "desc": "面向开发者的知识分享社区",
+        "url": "https://www.cnblogs.com/"
+      },
+      {
+        "name": "知乎",
+        "desc": "中文互联网高质量的问答社区和创作者聚集的原创内容平台",
+        "url": "https://www.zhihu.com"
+      },
+      {
+        "name": "简书",
+        "desc": "优质的创作社区",
+        "url": "https://www.jianshu.com/"
+      }
+    ]
+  },
+  {
+    "name": "国外社区",
+    "icon": "fa fa-users",
+    "data": [
+      {
+        "name": "V2EX",
+        "desc": "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
+        "url": "https://www.v2ex.com/"
+      },
+      {
+        "name": "Stack Overflow",
+        "desc": "IT技术问答网站",
+        "url": "https://stackoverflow.com/"
+      }
+    ]
+  },
+  {
+    "name": "Git仓库",
+    "icon": "fa fa-users",
+    "data": [
+      {
+        "name": "GitHub",
+        "desc": "开源软件项目的托管平台",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "Gitee",
+        "desc": "基于 Git 的代码托管和研发协作平台",
+        "url": "https://gitee.com/"
+      },
+      {
+        "name": "GitCode",
+        "desc": "一亿人的安全代码仓,开发者的代码家园",
+        "url": "https://gitcode.com/"
+      }
+    ]
+  },
+  {
+    "name": "前端团队",
+    "data": [
+      {
+        "name": "抖音前端技术团队",
+        "desc": "抖音前端技术团队,专注建设前端基础设施,积极探索社区技术",
+        "url":"https://douyinfe.com/"
+      },
+      {
+        "name": "FEX",
+        "desc": "百度前端技术团队",
+        "url":"https://fex-team.github.io/"
+      },
+      {
+        "name": "FEX",
+        "desc": "百度技术团队",
+        "url":"https://fex-team.github.io/"
+      }
+    ]
   }
 ]

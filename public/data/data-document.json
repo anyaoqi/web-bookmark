@@ -5,45 +5,45 @@
       {
         "name": "MDN Web Docs",
         "desc": "Web 开发者指南",
-        "href": "https://developer.mozilla.org/"
+        "url": "https://developer.mozilla.org/"
       },
       {
         "name": "阮一峰ES6入门教程",
         "desc": "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
-        "href": "https://es6.ruanyifeng.com/"
+        "url": "https://es6.ruanyifeng.com/"
       },
       {
         "name": "Node",
         "desc": "跨平台的 JavaScript 运行时环境",
-        "href": "https://nodejs.org/",
-        "href_cn": "https://www.nodejs.com.cn/"
+        "url": "https://nodejs.org/",
+        "url_cn": "https://www.nodejs.com.cn/"
       },
       {
         "name": "TypeScript",
         "desc": "具有类型语法的 JavaScript",
-        "href": "https://www.typescriptlang.org/"
+        "url": "https://www.typescriptlang.org/"
       },
       {
         "name": "菜鸟教程",
         "desc": "学的不仅是技术，更是梦想！",
-        "href": "https://www.runoob.com/"
+        "url": "https://www.runoob.com/"
       },
       {
         "name": "w3school",
         "desc": "领先的 Web 技术教程 - 全部免费",
-        "href": "https://www.w3school.com.cn/"
+        "url": "https://www.w3school.com.cn/"
       },
       {
         "name": "jQuery",
         "desc": "高效、精简并且功能丰富的 JavaScript 工具库",
-        "href": "https://jquery.com/",
-        "href_cn": "https://www.jquery123.com/"
+        "url": "https://jquery.com/",
+        "url_cn": "https://www.jquery123.com/"
       },
       {
         "name": "Bootstrap",
         "desc": "简洁、直观、强悍的前端开发框架",
-        "href": "https://getbootstrap.com/",
-        "href_cn": "https://www.bootcss.com/"
+        "url": "https://getbootstrap.com/",
+        "url_cn": "https://www.bootcss.com/"
       }
     ]
   },
@@ -54,37 +54,37 @@
         "name": "Vue",
         "logo": "vue.png",
         "desc": "渐进式JavaScript框架",
-        "href": "https://cn.vuejs.org/"
+        "url": "https://cn.vuejs.org/"
       },
       {
         "name": "React",
         "logo": "react.png",
         "desc": "构建Web和原生交互界面的库",
-        "href": "https://react.dev/",
-        "href_cn": "https://react.docschina.org/"
+        "url": "https://react.dev/",
+        "url_cn": "https://react.docschina.org/"
       },
       {
         "name": "Angular",
         "desc": "构建现代应用程序的Web开发框架！",
-        "href": "https://angular.dev/",
-        "href_cn": "https://angular.cn/"
+        "url": "https://angular.dev/",
+        "url_cn": "https://angular.cn/"
       },
       {
         "name": "Svelte",
         "logo": "svelte.png",
         "desc": "快速构建Web应用的工具",
-        "href": "https://svelte.dev/",
-        "href_cn": "https://www.svelte.cn/"
+        "url": "https://svelte.dev/",
+        "url_cn": "https://www.svelte.cn/"
       },
       {
         "name": "Solid",
         "desc": "一个用于构建用户界面，简单高效、性能卓越的JavaScript库",
-        "href": "https://www.solidjs.com/"
+        "url": "https://www.solidjs.com/"
       },
       {
         "name": "Preact",
         "desc": "React轻量、快速替代方案",
-        "href": "https://preactjs.com/"
+        "url": "https://preactjs.com/"
       }
     ]
   },
@@ -94,28 +94,28 @@
       {
         "name": "Vue-Router",
         "desc": "Vue.js 的官方路由",
-        "href": "https://router.vuejs.org/zh/"
+        "url": "https://router.vuejs.org/zh/"
       },
       {
         "name": "Pinia",
         "desc": "Vue.js 状态管理库",
-        "href": "https://pinia.vuejs.org/zh/"
+        "url": "https://pinia.vuejs.org/zh/"
       },
       {
         "name": "Vuex",
         "desc": "Vue.js 状态管理库",
-        "href": "https://vuex.vuejs.org/zh/"
+        "url": "https://vuex.vuejs.org/zh/"
       },
       {
         "name": "Vue DevTools",
         "desc": "Vue开发调试工具",
-        "href": "https://devtools.vuejs.org/"
+        "url": "https://devtools.vuejs.org/"
       },
       {
         "name": "Nuxt",
         "desc": "Vue服务端渲染应用框架",
-        "href": "https://nuxt.com/",
-        "href_cn": "https://nuxt.com.cn/"
+        "url": "https://nuxt.com/",
+        "url_cn": "https://nuxt.com.cn/"
       }
     ]
   },
@@ -125,24 +125,24 @@
       {
         "name": "React-Router",
         "desc": "React官方路由系统",
-        "href": "https://reactrouter.com/"
+        "url": "https://reactrouter.com/"
       },
       {
         "name": "Redux",
         "desc": "JS 应用的状态容器，提供可预测的状态管理",
-        "href": "https://redux.js.org/",
-        "href_cn": "https://cn.redux.js.org/"
+        "url": "https://redux.js.org/",
+        "url_cn": "https://cn.redux.js.org/"
       },
       {
         "name": "Redux-Toolkit",
         "desc": "JS 应用的状态容器，提供可预测的状态管理",
-        "href": "https://redux-toolkit.js.org/",
-        "href_cn": "https://cn.redux-toolkit.js.org/"
+        "url": "https://redux-toolkit.js.org/",
+        "url_cn": "https://cn.redux-toolkit.js.org/"
       },
       {
         "name": "Next",
         "desc": "React服务端渲染应用框架",
-        "href": "https://nextjs.org/"
+        "url": "https://nextjs.org/"
       }
     ]
   },
@@ -152,24 +152,24 @@
       {
         "name": "Vite",
         "desc": "新型前端构建工具",
-        "href": "https://cn.vitejs.dev/"
+        "url": "https://cn.vitejs.dev/"
       },
       {
         "name": "Webpack",
         "desc": "静态模块打包工具",
-        "href": "https://webpack.js.org/",
-        "href_cn": "https://webpack.docschina.org/"
+        "url": "https://webpack.js.org/",
+        "url_cn": "https://webpack.docschina.org/"
       },
       {
         "name": "Parcel",
         "desc": "零配置的构建工具",
-        "href": "https://parceljs.org/",
-        "href_cn": "https://v2.parceljs.cn/"
+        "url": "https://parceljs.org/",
+        "url_cn": "https://v2.parceljs.cn/"
       },
       {
         "name": "Rollup",
         "desc": "JavaScript打包器",
-        "href": "https://cn.rollupjs.org/"
+        "url": "https://cn.rollupjs.org/"
       }
     ]
   },
@@ -179,24 +179,24 @@
       {
         "name": "Uniapp",
         "desc": "开发一次，多端覆盖",
-        "href": "https://uniapp.dcloud.net.cn/"
+        "url": "https://uniapp.dcloud.net.cn/"
       },
       {
         "name": "Electron",
         "desc": "构建桌面应用程序的框架",
-        "href": "https://www.electronjs.org/zh/docs/latest/"
+        "url": "https://www.electronjs.org/zh/docs/latest/"
       },
       {
         "name": "Flutter",
         "desc": "Google开源的应用开发框架",
-        "href": "https://flutter.dev/",
-        "href_cn": "https://flutter.cn/"
+        "url": "https://flutter.dev/",
+        "url_cn": "https://flutter.cn/"
       },
       {
         "name": "Weex",
         "desc": "开发高性能原生应用的框架",
-        "href": "https://weexapp.com/",
-        "href_cn": "https://weexapp.com/zh/"
+        "url": "https://weexapp.com/",
+        "url_cn": "https://weexapp.com/zh/"
       }
     ]
   },
@@ -206,36 +206,36 @@
       {
         "name": "Tailwind Css",
         "desc": "只需书写 HTML 代码，无需书写 CSS，即可快速构建美观的网站",
-        "href": "https://tailwindcss.com/",
-        "href_cn": "https://www.tailwindcss.cn/"
+        "url": "https://tailwindcss.com/",
+        "url_cn": "https://www.tailwindcss.cn/"
       },
       {
         "name": "Unocss",
         "desc": "即时按需原子 CSS 引擎",
-        "href": "https://unocss.dev/"
+        "url": "https://unocss.dev/"
       },
       {
         "name": "Windi CSS",
         "desc": "按需供应的 Tailwind 替代方案",
-        "href": "https://windicss.org/",
-        "href_cn": "https://cn.windicss.org/"
+        "url": "https://windicss.org/",
+        "url_cn": "https://cn.windicss.org/"
       },
       {
         "name": "Less",
         "desc": "向后兼容的 CSS 语言扩展",
-        "href": "https://lesscss.org/",
-        "href_cn": "https://lesscss.cn/"
+        "url": "https://lesscss.org/",
+        "url_cn": "https://lesscss.cn/"
       },
       {
         "name": "Sass",
         "desc": "世界上最成熟、最稳定、最强大的专业级CSS扩展语言！",
-        "href": "https://sass-lang.com/",
-        "href_cn": "https://www.sass.hk/"
+        "url": "https://sass-lang.com/",
+        "url_cn": "https://www.sass.hk/"
       },
       {
         "name": "Stylus",
         "desc": "富于表现力、动态的、健壮的 CSS",
-        "href": "https://stylus-lang.com/"
+        "url": "https://stylus-lang.com/"
       }
     ]
   },
@@ -245,27 +245,27 @@
       {
         "name": "Element Plus",
         "desc": "基于 Vue 3，面向设计师和开发者的组件库",
-        "href": "https://element-plus.org/"
+        "url": "https://element-plus.org/"
       },
       {
         "name": "Ant Design of React",
         "desc": "基于 Ant Design 设计体系的 React UI 组件库",
-        "href": "https://ant-design.antgroup.com/docs/react/introduce-cn"
+        "url": "https://ant-design.antgroup.com/docs/react/introduce-cn"
       },
       {
         "name": "Ant Design of Vue",
         "desc": "Ant Design 的 Vue 实现，开发和服务于企业级后台产品",
-        "href": "https://antdv.com/components/overview-cn"
+        "url": "https://antdv.com/components/overview-cn"
       },
       {
         "name": "Naive UI",
         "desc": "一个 Vue 3 组件库",
-        "href": "https://www.naiveui.com/"
+        "url": "https://www.naiveui.com/"
       },
       {
         "name": "Arco design",
         "desc": "基于Byte Design升级而来，能力全面的企业级产品设计系统",
-        "href": "https://arco.design/"
+        "url": "https://arco.design/"
       }
     ]
   },
@@ -275,27 +275,42 @@
       {
         "name": "Express",
         "desc": "简洁而灵活的 Node.js Web 框架",
-        "href": "https://expressjs.com/"
+        "url": "https://expressjs.com/"
       },
       {
         "name": "Koa",
         "desc": "下一代 Web 框架，基于 ES6 语法",
-        "href": "https://koajs.com/"
+        "url": "https://koajs.com/"
       },
       {
         "name": "Egg",
         "desc": "企业级 Node.js 框架，基于 Koa",
-        "href": "https://eggjs.org/"
+        "url": "https://eggjs.org/"
       },
       {
         "name": "MidwayJS",
         "desc": "面向未来的前端和后端一体化应用框架",
-        "href": "https://midwayjs.org/"
+        "url": "https://midwayjs.org/"
       },
       {
         "name": "NestJS",
         "desc": "现代的、可扩展的 Node.js Web 框架",
-        "href": "https://nestjs.com/"
+        "url": "https://nestjs.com/"
+      }
+    ]
+  },
+  {
+    "name": "中文文档",
+    "data": [
+      {
+        "name": "印记中文",
+        "desc": "为中国 Web 前端开发人员提供优质文档!",
+        "url": "https://www.docschina.org/"
+      },
+      {
+        "name": "EzDoc",
+        "desc": "中文开发者手册文档资料库",
+        "url": "https://ezdoc.cn/"
       }
     ]
   }
