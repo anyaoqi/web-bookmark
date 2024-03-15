@@ -17,7 +17,7 @@ const navClick = ({ name }) => {
 
 <template>
   <nav
-    class="nav-container w-48 h-screen border-r border-gray-300 dark:bg-gray-900 transition-all"
+    class="nav-container h-screen border-r border-gray-300 dark:bg-gray-900 transition-all"
     :class="[navShow ? 'w-48' : 'w-0']"
   >
     <!-- Logo -->
