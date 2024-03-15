@@ -77,7 +77,7 @@
     "data": [
       {
         "name": "抖音前端技术团队",
-        "desc": "抖音前端技术团队,专注建设前端基础设施,积极探索社区技术",
+        "desc": "抖音前端技术团队",
         "url":"https://douyinfe.com/"
       },
       {
@@ -86,9 +86,34 @@
         "url":"https://fex-team.github.io/"
       },
       {
-        "name": "FEX",
-        "desc": "百度技术团队",
-        "url":"https://fex-team.github.io/"
+        "name": "FED",
+        "desc": "淘宝前端团队",
+        "url":"https://fed.taobao.org/"
+      },
+      {
+        "name": "美团技术团队",
+        "desc": "美团技术团队",
+        "url":"https://tech.meituan.com/"
+      },
+      {
+        "name": "美团技术团队",
+        "desc": "美团技术团队",
+        "url":"https://tech.meituan.com/"
+      },
+      {
+        "name": "AlloyTeam",
+        "desc": "腾讯前端技术团队",
+        "url":"https://www.alloyteam.com/"
+      },
+      {
+        "name": "凹凸实验室",
+        "desc": "京东技术团队",
+        "url":"https://aotu.io/"
+      },
+      {
+        "name": "蚂蚁体验科技",
+        "desc": "蚂蚁技术团队",
+        "url":"https://xcloud.alipay.com/"
       }
     ]
   }

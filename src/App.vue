@@ -9,7 +9,7 @@ import Main from '@/components/Main/Main.vue'
   <!-- 菜单栏 -->
   <Nav />
   <!-- 主体 -->
-  <div class="flex-1">
+  <div class="flex-1 inline-flex flex-col">
     <!-- 头部 -->
     <Header />
     <!-- 页面内容 -->

@@ -4,7 +4,7 @@ import { getMenus, getPageData as getData } from '@/apis'
 
 const pinia = createPinia()
 
-export const useStore = defineStore('store',{
+export const useStore = defineStore('store', {
   state: () => ({
     // 是否暗色主题
     darkTheme: true,
@@ -16,6 +16,8 @@ export const useStore = defineStore('store',{
     pageData: [],
     // 当前页面导航
     currNav: '',
+    // 是否显示左侧nav导航
+    navShow: true,
   }),
   getters: {},
   actions: {
@@ -39,7 +41,7 @@ export const useStore = defineStore('store',{
     },
     // 获取菜单路由
     getMenuData() {
-      return getMenus().then(data => {
+      return getMenus().then((data) => {
         if (data && data.length) {
           this.menuList = data
         } else {
@@ -50,7 +52,7 @@ export const useStore = defineStore('store',{
     // 获取页面数据
     getPageData(menuKey) {
       this.pageData = []
-      getData(menuKey).then(pageData => {
+      getData(menuKey).then((pageData) => {
         if (pageData && pageData.length) {
           this.pageData = pageData
           this.currNav = pageData[0].name
@@ -58,7 +60,10 @@ export const useStore = defineStore('store',{
           this.pageData = []
         }
       })
-    }
+    },
+    toggleNavShow() {
+      this.navShow = !this.navShow
+    },
   },
   persist: true,
 })

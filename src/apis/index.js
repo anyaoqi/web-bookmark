@@ -4,7 +4,7 @@ import { request } from '@/utils/axios'
 export const getMenus = () => {
   return request({
     url: '/data/menus.json',
-    method: 'GET'
+    method: 'GET',
   })
 }
 
@@ -15,6 +15,6 @@ export const getMenus = () => {
 export const getPageData = (key) => {
   return request({
     url: `/data/${key}.json`,
-    method: 'GET'
+    method: 'GET',
   })
 }

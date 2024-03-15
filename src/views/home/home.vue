@@ -22,17 +22,26 @@ getPageData()
 
 <template>
   <!-- 分类 -->
-  <div class="category-wrapper" v-for="(category, index) in pageData" :key="index" :id="category.name">
+  <div
+    class="category-wrapper"
+    v-for="(category, index) in pageData"
+    :key="index"
+    :id="category.name"
+  >
     <div class="category-head flex">
       <span class="category-title-icon mr-2">
-        <i class="fa fa-tag text-lg" ></i>
+        <i class="fa fa-tag text-lg"></i>
       </span>
-      <h2 class="category-title-text text-lg" >{{ category.name }}</h2>
+      <h2 class="category-title-text text-lg">{{ category.name }}</h2>
     </div>
     <!-- 列表 -->
     <ul class="cagetory-items flex flex-wrap mt-2">
-      <li class="list-item w-1/6 h-22 pl-4 mb-3" v-for="(item, i) in category.data" :key="i">
-        <DataItem  :data="item"/>
+      <li
+        class="list-item w-1/6 h-22 pl-4 mb-3"
+        v-for="(item, i) in category.data"
+        :key="i"
+      >
+        <DataItem :data="item" />
       </li>
     </ul>
   </div>
