@@ -1,0 +1,317 @@
+[
+  {
+    "name": "前端基础",
+    "data": [
+      {
+        "name": "MDN Web Docs",
+        "desc": "Web 开发者指南",
+        "url": "https://developer.mozilla.org/"
+      },
+      {
+        "name": "阮一峰ES6入门教程",
+        "desc": "《ECMAScript 6 入门教程》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新引入的语法特性。",
+        "url": "https://es6.ruanyifeng.com/"
+      },
+      {
+        "name": "Node",
+        "desc": "跨平台的 JavaScript 运行时环境",
+        "url": "https://nodejs.org/",
+        "url_cn": "https://www.nodejs.com.cn/"
+      },
+      {
+        "name": "TypeScript",
+        "desc": "具有类型语法的 JavaScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "name": "菜鸟教程",
+        "desc": "学的不仅是技术，更是梦想！",
+        "url": "https://www.runoob.com/"
+      },
+      {
+        "name": "w3school",
+        "desc": "领先的 Web 技术教程 - 全部免费",
+        "url": "https://www.w3school.com.cn/"
+      },
+      {
+        "name": "jQuery",
+        "desc": "高效、精简并且功能丰富的 JavaScript 工具库",
+        "url": "https://jquery.com/",
+        "url_cn": "https://www.jquery123.com/"
+      },
+      {
+        "name": "Bootstrap",
+        "desc": "简洁、直观、强悍的前端开发框架",
+        "url": "https://getbootstrap.com/",
+        "url_cn": "https://www.bootcss.com/"
+      }
+    ]
+  },
+  {
+    "name": "前端框架",
+    "data": [
+      {
+        "name": "Vue",
+        "logo": "vue.png",
+        "desc": "渐进式JavaScript框架",
+        "url": "https://cn.vuejs.org/"
+      },
+      {
+        "name": "React",
+        "logo": "react.png",
+        "desc": "构建Web和原生交互界面的库",
+        "url": "https://react.dev/",
+        "url_cn": "https://react.docschina.org/"
+      },
+      {
+        "name": "Angular",
+        "desc": "构建现代应用程序的Web开发框架！",
+        "url": "https://angular.dev/",
+        "url_cn": "https://angular.cn/"
+      },
+      {
+        "name": "Svelte",
+        "logo": "svelte.png",
+        "desc": "快速构建Web应用的工具",
+        "url": "https://svelte.dev/",
+        "url_cn": "https://www.svelte.cn/"
+      },
+      {
+        "name": "Solid",
+        "desc": "一个用于构建用户界面，简单高效、性能卓越的JavaScript库",
+        "url": "https://www.solidjs.com/"
+      },
+      {
+        "name": "Preact",
+        "desc": "React轻量、快速替代方案",
+        "url": "https://preactjs.com/"
+      }
+    ]
+  },
+  {
+    "name": "Vue生态",
+    "data": [
+      {
+        "name": "Vue-Router",
+        "desc": "Vue.js 的官方路由",
+        "url": "https://router.vuejs.org/zh/"
+      },
+      {
+        "name": "Pinia",
+        "desc": "Vue.js 状态管理库",
+        "url": "https://pinia.vuejs.org/zh/"
+      },
+      {
+        "name": "Vuex",
+        "desc": "Vue.js 状态管理库",
+        "url": "https://vuex.vuejs.org/zh/"
+      },
+      {
+        "name": "Vue DevTools",
+        "desc": "Vue开发调试工具",
+        "url": "https://devtools.vuejs.org/"
+      },
+      {
+        "name": "Nuxt",
+        "desc": "Vue服务端渲染应用框架",
+        "url": "https://nuxt.com/",
+        "url_cn": "https://nuxt.com.cn/"
+      }
+    ]
+  },
+  {
+    "name": "React生态",
+    "data": [
+      {
+        "name": "React-Router",
+        "desc": "React官方路由系统",
+        "url": "https://reactrouter.com/"
+      },
+      {
+        "name": "Redux",
+        "desc": "JS 应用的状态容器，提供可预测的状态管理",
+        "url": "https://redux.js.org/",
+        "url_cn": "https://cn.redux.js.org/"
+      },
+      {
+        "name": "Redux-Toolkit",
+        "desc": "JS 应用的状态容器，提供可预测的状态管理",
+        "url": "https://redux-toolkit.js.org/",
+        "url_cn": "https://cn.redux-toolkit.js.org/"
+      },
+      {
+        "name": "Next",
+        "desc": "React服务端渲染应用框架",
+        "url": "https://nextjs.org/"
+      }
+    ]
+  },
+  {
+    "name": "打包工具",
+    "data": [
+      {
+        "name": "Vite",
+        "desc": "新型前端构建工具",
+        "url": "https://cn.vitejs.dev/"
+      },
+      {
+        "name": "Webpack",
+        "desc": "静态模块打包工具",
+        "url": "https://webpack.js.org/",
+        "url_cn": "https://webpack.docschina.org/"
+      },
+      {
+        "name": "Parcel",
+        "desc": "零配置的构建工具",
+        "url": "https://parceljs.org/",
+        "url_cn": "https://v2.parceljs.cn/"
+      },
+      {
+        "name": "Rollup",
+        "desc": "JavaScript打包器",
+        "url": "https://cn.rollupjs.org/"
+      }
+    ]
+  },
+  {
+    "name": "跨平台框架",
+    "data": [
+      {
+        "name": "Uniapp",
+        "desc": "开发一次，多端覆盖",
+        "url": "https://uniapp.dcloud.net.cn/"
+      },
+      {
+        "name": "Electron",
+        "desc": "构建桌面应用程序的框架",
+        "url": "https://www.electronjs.org/zh/docs/latest/"
+      },
+      {
+        "name": "Flutter",
+        "desc": "Google开源的应用开发框架",
+        "url": "https://flutter.dev/",
+        "url_cn": "https://flutter.cn/"
+      },
+      {
+        "name": "Weex",
+        "desc": "开发高性能原生应用的框架",
+        "url": "https://weexapp.com/",
+        "url_cn": "https://weexapp.com/zh/"
+      }
+    ]
+  },
+  {
+    "name": "CSS相关",
+    "data": [
+      {
+        "name": "Tailwind Css",
+        "desc": "只需书写 HTML 代码，无需书写 CSS，即可快速构建美观的网站",
+        "url": "https://tailwindcss.com/",
+        "url_cn": "https://www.tailwindcss.cn/"
+      },
+      {
+        "name": "Unocss",
+        "desc": "即时按需原子 CSS 引擎",
+        "url": "https://unocss.dev/"
+      },
+      {
+        "name": "Windi CSS",
+        "desc": "按需供应的 Tailwind 替代方案",
+        "url": "https://windicss.org/",
+        "url_cn": "https://cn.windicss.org/"
+      },
+      {
+        "name": "Less",
+        "desc": "向后兼容的 CSS 语言扩展",
+        "url": "https://lesscss.org/",
+        "url_cn": "https://lesscss.cn/"
+      },
+      {
+        "name": "Sass",
+        "desc": "世界上最成熟、最稳定、最强大的专业级CSS扩展语言！",
+        "url": "https://sass-lang.com/",
+        "url_cn": "https://www.sass.hk/"
+      },
+      {
+        "name": "Stylus",
+        "desc": "富于表现力、动态的、健壮的 CSS",
+        "url": "https://stylus-lang.com/"
+      }
+    ]
+  },
+  {
+    "name": "UI框架",
+    "data": [
+      {
+        "name": "Element Plus",
+        "desc": "基于 Vue 3，面向设计师和开发者的组件库",
+        "url": "https://element-plus.org/"
+      },
+      {
+        "name": "Ant Design of React",
+        "desc": "基于 Ant Design 设计体系的 React UI 组件库",
+        "url": "https://ant-design.antgroup.com/docs/react/introduce-cn"
+      },
+      {
+        "name": "Ant Design of Vue",
+        "desc": "Ant Design 的 Vue 实现，开发和服务于企业级后台产品",
+        "url": "https://antdv.com/components/overview-cn"
+      },
+      {
+        "name": "Naive UI",
+        "desc": "一个 Vue 3 组件库",
+        "url": "https://www.naiveui.com/"
+      },
+      {
+        "name": "Arco design",
+        "desc": "基于Byte Design升级而来，能力全面的企业级产品设计系统",
+        "url": "https://arco.design/"
+      }
+    ]
+  },
+  {
+    "name": "Node框架",
+    "data": [
+      {
+        "name": "Express",
+        "desc": "简洁而灵活的 Node.js Web 框架",
+        "url": "https://expressjs.com/"
+      },
+      {
+        "name": "Koa",
+        "desc": "下一代 Web 框架，基于 ES6 语法",
+        "url": "https://koajs.com/"
+      },
+      {
+        "name": "Egg",
+        "desc": "企业级 Node.js 框架，基于 Koa",
+        "url": "https://eggjs.org/"
+      },
+      {
+        "name": "MidwayJS",
+        "desc": "面向未来的前端和后端一体化应用框架",
+        "url": "https://midwayjs.org/"
+      },
+      {
+        "name": "NestJS",
+        "desc": "现代的、可扩展的 Node.js Web 框架",
+        "url": "https://nestjs.com/"
+      }
+    ]
+  },
+  {
+    "name": "中文文档",
+    "data": [
+      {
+        "name": "印记中文",
+        "desc": "为中国 Web 前端开发人员提供优质文档!",
+        "url": "https://www.docschina.org/"
+      },
+      {
+        "name": "EzDoc",
+        "desc": "中文开发者手册文档资料库",
+        "url": "https://ezdoc.cn/"
+      }
+    ]
+  }
+]

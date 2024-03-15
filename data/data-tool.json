@@ -1,0 +1,176 @@
+[
+  {
+    "name": "代码管理",
+    "icon": "fa fa-book",
+    "data": [
+      {
+        "name": "Git",
+        "desc": "开源的分布式版本控制系统",
+        "url": "https://git-scm.com/"
+      },
+      {
+        "name": "Sourcetree",
+        "desc": "强大的Windows和Mac的免费Git客户端",
+        "url": "https://www.sourcetreeapp.com/"
+      },
+      {
+        "name": "TortoiseGit",
+        "desc": "中文名小乌龟，Git版本控制系统的源客户端",
+        "url": "https://tortoisegit.org/"
+      },
+      {
+        "name": "TortoiseSvn",
+        "desc": "Windows版本/源代码管理软件",
+        "url": "https://tortoisesvn.net/"
+      }
+    ]
+  },
+  {
+    "name": "代码编辑器",
+    "icon": "fa fa-book",
+    "data": [
+      {
+        "name": "Visual Studio Code",
+        "desc": "轻量级、功能强大的源代码编辑器",
+        "url": "https://code.visualstudio.com/"
+      },
+      {
+        "name": "Hbuilder X",
+        "desc": "轻如编辑器、强如IDE的合体版本",
+        "url": "https://www.dcloud.io/hbuilderx.html"
+      },
+      {
+        "name": "Webstorm",
+        "desc": "界面简洁，操作方便的Web前端开发神器",
+        "url": "https://www.jetbrains.com/zh-cn/webstorm/"
+      },
+      {
+        "name": "SublimeText",
+        "desc": "轻量级、高性能且高度可定制的文本编辑器",
+        "url": "https://www.sublimetext.com/"
+      },
+      {
+        "name": "Notepad++",
+        "desc": "免费开源的文本编辑器",
+        "url": "https://notepad-plus-plus.org/"
+      }
+    ]
+  },
+  {
+    "name": "VsCode插件",
+    "icon": "fa fa-book",
+    "data": [
+      {
+        "name": "Auto Close Tag",
+        "desc": "代码标签自动闭合",
+        "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag"
+      },
+      {
+        "name": "Auto Complete Tag",
+        "desc": "代码标签自动补全",
+        "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag"
+      },
+      {
+        "name": "Auto Rename Tag",
+        "desc": "代码标签自动移除",
+        "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag"
+      },
+      {
+        "name": "background",
+        "desc": "添加背景和卡通人物",
+        "url": "https://marketplace.visualstudio.com/items?itemName=shalldie.background"
+      },
+      {
+        "name": "background-cover",
+        "desc": "自定义编辑器背景",
+        "url": "https://marketplace.visualstudio.com/items?itemName=manasxx.background-cover"
+      },
+      {
+        "name": "Chinese (Simplified)",
+        "desc": "中文语言汉化包",
+        "url": "https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans"
+      },
+      {
+        "name": "Comment Translate",
+        "desc": "注释翻译",
+        "url": "https://marketplace.visualstudio.com/items?itemName=intellsmi.comment-translate",
+        "url_git": "https://github.com/intellism/vscode-comment-translate"
+      },
+      {
+        "name": "GitLens",
+        "desc": "代码修改信息查看",
+        "url": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
+      },
+      {
+        "name": "Increment Selection",
+        "desc": "选中数字逐个递增递减",
+        "url": "https://marketplace.visualstudio.com/items?itemName=albymor.increment-selection"
+      },
+      {
+        "name": "Live Server",
+        "desc": "有实时加载功能的小型服务器",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+      },
+      {
+        "name": "Material Icon Theme",
+        "desc": "文件图标主题",
+        "url": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"
+      },
+      {
+        "name": "Prettier",
+        "desc": "代码格式化工具",
+        "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+      },
+      {
+        "name": "Postman",
+        "desc": "接口测试工具",
+        "url": "https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode"
+      },
+      {
+        "name": "px2xx",
+        "desc": "css单位转换：px转rem、vw、vh等",
+        "url": "https://marketplace.visualstudio.com/items?itemName=ProEagle.px2xx"
+      },
+      {
+        "name": "Rainbow Brackets",
+        "desc": "彩虹括号-可以将括号用不同颜色标记",
+        "url": "https://marketplace.visualstudio.com/items?itemName=tal7aouy.rainbow-bracket"
+      },
+      {
+        "name": "Tailwind CSS IntelliSense",
+        "desc": "Tailwind Css-语法提示",
+        "url": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss"
+      },
+      {
+        "name": "Trailing Spaces",
+        "desc": "显示代码中多余空格",
+        "url": "https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces"
+      },
+      {
+        "name": "typora",
+        "desc": "markdown编辑器",
+        "url": "https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-typora"
+      },
+      {
+        "name": "Vue - Official",
+        "desc": "Vue官方VSCode扩展",
+        "url": "https://marketplace.visualstudio.com/items?itemName=Vue.volar"
+      },
+      {
+        "name": "Vite",
+        "desc": "Vite开发服务器",
+        "url": "https://marketplace.visualstudio.com/items?itemName=antfu.vite"
+      },
+      {
+        "name": "ESLint",
+        "desc": "代码校验工具",
+        "url": "https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"
+      },
+      {
+        "name": "React",
+        "desc": "React官方Vscode插件",
+        "url": "https://marketplace.visualstudio.com/items?itemName=zhang-renyang.vscode-react"
+      }
+    ]
+  }
+]
