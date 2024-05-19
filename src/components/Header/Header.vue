@@ -43,7 +43,7 @@ const getPageData = (menuKey) => {
     class="header fixed flex justify-between items-center h-14 backdrop-blur-md border-b border-gray-200 dark:border-gray-600 shadow-lg z-10"
   >
     <div class="header-left">
-      <div class="search-wrapper">
+      <div class="search-wrapper pl-4">
         <router-link to="/messageBoard">申请收录</router-link>
       </div>
     </div>
