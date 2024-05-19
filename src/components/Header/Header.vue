@@ -50,12 +50,12 @@ const toggleNavShow = () => {
   <header
     class="header fixed flex justify-between items-center h-14 backdrop-blur-md border-b border-gray-200 dark:border-gray-600 shadow-lg z-10"
   >
-    <div class="header-left">
+    <div class="header-left flex">
       <span class="toggle-nav px-2 cursor-pointer" @click="toggleNavShow">
         <i v-show="!navShow" class="fa fa-align-left" />
         <i v-show="navShow" class="fa fa-align-right" />
       </span>
-      <div class="search-wrapper pl-4">
+      <div class="search-wrapper ml-2">
         <router-link to="/messageBoard">申请收录</router-link>
       </div>
     </div>
