@@ -55,7 +55,9 @@ const toggleNavShow = () => {
         <i v-show="!navShow" class="fa fa-align-left" />
         <i v-show="navShow" class="fa fa-align-right" />
       </span>
-      <div class="search-wrapper"></div>
+      <div class="search-wrapper pl-4">
+        <router-link to="/messageBoard">申请收录</router-link>
+      </div>
     </div>
     <div class="header-center">
       <ul class="menu-list flex text-lg">
