@@ -13,7 +13,11 @@ const itemData = props.data
       <img
         class="item-logo w-[42px] h-[42px]"
         v-if="itemData.logo"
-        :src="`./images/${itemData.logo}`"
+        :src="
+          itemData.logo.startsWith('http')
+            ? itemData.logo
+            : `./images/${itemData.logo}`
+        "
       />
       <!-- 名称和描述 -->
       <div class="ml-2">

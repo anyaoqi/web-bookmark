@@ -6,32 +6,38 @@
       {
         "name": "稀土掘金",
         "desc": "中文开发者的技术内容分享与交流平台",
-        "url": "https://juejin.cn/"
+        "url": "https://juejin.cn/",
+        "logo": "https://logo.svgcdn.com/juejin.svg"
       },
       {
         "name": "CSDN",
         "desc": "中文IT技术交流平台",
-        "url": "https://www.csdn.net/"
+        "url": "https://www.csdn.net/",
+        "logo": "https://logo.svgcdn.com/csdn.svg"
       },
       {
         "name": "SegmentFault 思否",
         "desc": "中国专业的开发者技术社区",
-        "url": "https://segmentfault.com/"
+        "url": "https://segmentfault.com/",
+        "logo": "https://logo.svgcdn.com/segmentfault.svg"
       },
       {
         "name": "博客园",
         "desc": "面向开发者的知识分享社区",
-        "url": "https://www.cnblogs.com/"
+        "url": "https://www.cnblogs.com/",
+        "logo": "https://logo.svgcdn.com/cnblogs.svg"
       },
       {
         "name": "知乎",
         "desc": "中文互联网高质量的问答社区和创作者聚集的原创内容平台",
-        "url": "https://www.zhihu.com"
+        "url": "https://www.zhihu.com",
+        "logo": "https://logo.svgcdn.com/zhihu.svg"
       },
       {
         "name": "简书",
         "desc": "优质的创作社区",
-        "url": "https://www.jianshu.com/"
+        "url": "https://www.jianshu.com/",
+        "logo": "https://logo.svgcdn.com/jianshu.svg"
       }
     ]
   },
@@ -42,12 +48,44 @@
       {
         "name": "V2EX",
         "desc": "创意工作者的社区。讨论编程、设计、硬件、游戏等令人激动的话题。",
-        "url": "https://www.v2ex.com/"
+        "url": "https://www.v2ex.com/",
+        "logo": "https://logo.svgcdn.com/v2ex.svg"
       },
       {
         "name": "Stack Overflow",
         "desc": "IT技术问答网站",
-        "url": "https://stackoverflow.com/"
+        "url": "https://stackoverflow.com/",
+        "logo": "https://logo.svgcdn.com/stackoverflow.svg"
+      },
+      {
+        "name": "FreeCodeCamp",
+        "desc": "全球最大的编程学习社区之一，提供丰富的前端和全栈教程、项目和认证。",
+        "url": "https://www.freecodecamp.org/",
+        "logo": "https://logo.svgcdn.com/freecodecamp.svg"
+      },
+      {
+        "name": "DEV Community",
+        "desc": "开发者的技术博客和社区，涵盖前端、后端、职业发展等话题。",
+        "url": "https://dev.to/",
+        "logo": "https://logo.svgcdn.com/dev.svg"
+      },
+      {
+        "name": "Hashnode",
+        "desc": "面向开发者的博客平台和社区，支持自定义域名。",
+        "url": "https://hashnode.com/",
+        "logo": "https://logo.svgcdn.com/hashnode.svg"
+      },
+      {
+        "name": "Reddit - r/frontend",
+        "desc": "Reddit 上的前端开发者社区，讨论最新技术、工具和趋势。",
+        "url": "https://www.reddit.com/r/frontend/",
+        "logo": "https://logo.svgcdn.com/reddit.svg"
+      },
+      {
+        "name": "Hacker News",
+        "desc": "技术和创业领域的新闻、讨论和分享社区。",
+        "url": "https://news.ycombinator.com/",
+        "logo": "https://logo.svgcdn.com/hackernews.svg"
       }
     ]
   },
@@ -58,17 +96,20 @@
       {
         "name": "GitHub",
         "desc": "开源软件项目的托管平台",
-        "url": "https://github.com/"
+        "url": "https://github.com/",
+        "logo": "https://logo.svgcdn.com/github.svg"
       },
       {
         "name": "Gitee",
         "desc": "基于 Git 的代码托管和研发协作平台",
-        "url": "https://gitee.com/"
+        "url": "https://gitee.com/",
+        "logo": "https://logo.svgcdn.com/gitee.svg"
       },
       {
         "name": "GitCode",
         "desc": "一亿人的安全代码仓,开发者的代码家园",
-        "url": "https://gitcode.com/"
+        "url": "https://gitcode.com/",
+        "logo": "https://logo.svgcdn.com/gitcode.svg"
       }
     ]
   },
@@ -78,42 +119,44 @@
       {
         "name": "抖音前端技术团队",
         "desc": "抖音前端技术团队",
-        "url":"https://douyinfe.com/"
+        "url": "https://douyinfe.com/",
+        "logo": "https://logo.svgcdn.com/douyin.svg"
       },
       {
         "name": "FEX",
         "desc": "百度前端技术团队",
-        "url":"https://fex-team.github.io/"
+        "url": "https://fex-team.github.io/",
+        "logo": "https://logo.svgcdn.com/fex.svg"
       },
       {
         "name": "FED",
         "desc": "淘宝前端团队",
-        "url":"https://fed.taobao.org/"
+        "url": "https://fed.taobao.org/",
+        "logo": "https://logo.svgcdn.com/fed.svg"
       },
       {
         "name": "美团技术团队",
         "desc": "美团技术团队",
-        "url":"https://tech.meituan.com/"
-      },
-      {
-        "name": "美团技术团队",
-        "desc": "美团技术团队",
-        "url":"https://tech.meituan.com/"
+        "url": "https://tech.meituan.com/",
+        "logo": "https://logo.svgcdn.com/meituan.svg"
       },
       {
         "name": "AlloyTeam",
         "desc": "腾讯前端技术团队",
-        "url":"https://www.alloyteam.com/"
+        "url": "https://www.alloyteam.com/",
+        "logo": "https://logo.svgcdn.com/alloyteam.svg"
       },
       {
         "name": "凹凸实验室",
         "desc": "京东技术团队",
-        "url":"https://aotu.io/"
+        "url": "https://aotu.io/",
+        "logo": "https://logo.svgcdn.com/aotu.svg"
       },
       {
         "name": "蚂蚁体验科技",
         "desc": "蚂蚁技术团队",
-        "url":"https://xcloud.alipay.com/"
+        "url": "https://xcloud.alipay.com/",
+        "logo": "https://logo.svgcdn.com/alipay.svg"
       }
     ]
   }

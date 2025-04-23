@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="w-[800px] m-auto">
+  <div class="w-[800px]">
     <h1 class="text-2xl">申请收录的方式</h1>
     <div class="m-auto">
       <p>通过在当前页面留言你想要添加的内容</p>
